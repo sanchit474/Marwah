@@ -1,0 +1,172 @@
+{
+  "project_identity": {
+    "name": "Marwah Modern Public School",
+    "brand_tagline": "Nurturing Minds, Shaping Futures, Empowering Leaders",
+    "theme_archetype": "ORGANIC & EARTHY / SWISS EDUCATIONAL ELEGANCE",
+    "emotional_tone": "Prestigious, Warm, Academic Excellence, Modern, Trustworthy",
+    "context_type": "hybrid_fullstack"
+  },
+  "typography": {
+    "fonts": {
+      "display_heading": "'Playfair Display', Georgia, serif",
+      "sans_body": "'Outfit', 'DM Sans', -apple-system, sans-serif",
+      "mono_accent": "'JetBrains Mono', monospace"
+    },
+    "scale": {
+      "hero_h1": "text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight leading-[1.1]",
+      "section_h2": "text-2xl sm:text-3xl lg:text-4xl font-semibold tracking-tight text-slate-900 dark:text-slate-100",
+      "subsection_h3": "text-xl sm:text-2xl font-medium text-slate-800 dark:text-slate-200",
+      "card_title_h4": "text-lg sm:text-xl font-semibold text-slate-900 dark:text-slate-100",
+      "body_base": "text-base sm:text-lg text-slate-600 dark:text-slate-300 leading-relaxed",
+      "small_label": "text-xs uppercase tracking-[0.2em] font-medium text-amber-600 dark:text-amber-400"
+    }
+  },
+  "color_palette": {
+    "primary": {
+      "navy_900": "#0E1E38",
+      "navy_800": "#162B4D",
+      "navy_700": "#1F3B66",
+      "navy_100": "#EAEFF7"
+    },
+    "accent": {
+      "warm_amber_500": "#D97706",
+      "warm_amber_400": "#F59E0B",
+      "warm_amber_50": "#FFFBEB"
+    },
+    "secondary": {
+      "sage_600": "#059669",
+      "sage_100": "#D1FAE5",
+      "burgundy_700": "#991B1B"
+    },
+    "surfaces": {
+      "background_light": "#FDFBF7",
+      "background_dark": "#0B132B",
+      "card_light": "#FFFFFF",
+      "card_dark": "#1C2541",
+      "glass_light": "rgba(255, 255, 255, 0.85)",
+      "glass_dark": "rgba(15, 23, 42, 0.85)",
+      "border_light": "#E2E8F0",
+      "border_dark": "#334155"
+    }
+  },
+  "layout_and_spacing": {
+    "header": {
+      "type": "Sticky Glassmorphism Nav Header",
+      "style": "sticky top-0 z-50 backdrop-blur-md bg-white/90 dark:bg-slate-900/90 border-b border-slate-200/80 dark:border-slate-800/80 shadow-sm",
+      "elements": [
+        "Brand Logo & Crest Badge ('Marwah Modern')",
+        "Desktop Links: Home, About, Academics, Admissions, Faculty, Gallery, News & Events, Contact",
+        "Action CTA: 'Apply Now' (Pill style Amber button)",
+        "Admin Portal quick icon / button toggle",
+        "Mobile Drawer Navigation with testid bindings"
+      ]
+    },
+    "bento_grid_protocol": {
+      "mode": "MODE A: THE TETRIS GRID (For Infrastructure & Highlights)",
+      "classes": "grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6 p-4 sm:p-6 lg:p-8"
+    },
+    "section_padding": "py-16 sm:py-24 px-4 sm:px-6 lg:px-12 max-w-7xl mx-auto"
+  },
+  "key_pages_and_components": {
+    "home_page": {
+      "hero_section": "Split Layout or Centered Hero with Warm Lighting overlay (`bg-gradient-to-r from-slate-900/80 via-slate-900/50 to-transparent`), live stat badges (e.g. '100% CBSE Pass Rate', '35+ Years of Excellence', '2500+ Proud Students'), primary CTA 'Explore Admissions' and secondary 'Watch Campus Video'",
+      "highlights_bento": "Interactive cards showcasing STEM Lab, Smart Classrooms, Olympic Sports Complex, Library & Robotics Club",
+      "principal_message": "Warm editorial layout featuring Principal's photo, quoted message on modern holistic education, signature & credentials",
+      "quick_stats_banner": "Counter grid: 100% University Placement, 40+ Extracurricular Clubs, 1:15 Teacher-Student Ratio, 12 Acre Lush Campus",
+      "testimonials": "Parent & Student stories carousel / tabbed layout with quotes, avatars, and graduation years",
+      "admission_cta_banner": "Eye-catching banner with vibrant amber background, emergency hotline, prospectus download, and quick enquiry button"
+    },
+    "about_page": {
+      "sections": [
+        "Founding Legacy & History Timeline",
+        "Vision & Mission Statement Grid",
+        "Core Pedagogical Values (Integrity, Curiosity, Leadership, Compassion)",
+        "School Management & Executive Board Profile Cards"
+      ]
+    },
+    "academics_page": {
+      "sections": [
+        "Curriculum Framework (CBSE / Holistic Pedagogy)",
+        "Academic Streams: Primary (Grades 1-5), Middle (Grades 6-8), Secondary & Senior Secondary (Science, Commerce, Humanities)",
+        "Co-Curricular & STEM Excellence highlights with interactive tab switcher",
+        "Evaluation & Assessment Criteria"
+      ]
+    },
+    "admissions_page": {
+      "sections": [
+        "Step-by-Step Admission Process Roadmap (Eligibility, Registration, Interaction, Verification, Fee Payment)",
+        "Fee Structure Transparency Table with Grade breakdown",
+        "Downloadable Prospectus & Syllabus PDFs",
+        "Interactive Online Admission Enquiry Form with dynamic validation, grade selection, parent details, child info, and real-time backend submit toast"
+      ]
+    },
+    "faculty_page": {
+      "sections": [
+        "Filterable Teacher Directory (Science, Mathematics, Languages, Arts, Physical Education)",
+        "Teacher Profile Cards with qualification, experience years, photo, and inspirational quote"
+      ]
+    },
+    "gallery_page": {
+      "sections": [
+        "Category Filters (All, Campus Architecture, Cultural Events, Sports Day, Science Exhibition, Annual Fest)",
+        "Lightbox Grid with high-res photos and descriptive captions"
+      ]
+    },
+    "news_events_page": {
+      "sections": [
+        "Upcoming Events Calendar & Notice Board (Exam schedules, Parent-Teacher Meet, Sports Meet, Science Fair)",
+        "School News Blog Grid with search bar, tag badges, publication dates, and detailed news modal / expander"
+      ]
+    },
+    "contact_page": {
+      "sections": [
+        "Interactive Contact Form (Name, Email, Phone, Subject, Message, Role select)",
+        "School Address, Map Location placeholder, Phone desk, Email info, Office Working Hours",
+        "Bus & Transport Helpdesk details"
+      ]
+    },
+    "admin_dashboard": {
+      "path": "/admin",
+      "features": [
+        "Stats Header (Total Admissions Enquiries, New Contact Messages, Active News Items, Pending Approvals)",
+        "Admissions Enquiries Data Table with Search, Grade Filter, Status Badge (Pending, Contacted, Admitted, Rejected) & Action Modal",
+        "Contact Messages List with quick reply & archive status",
+        "News & Events Manager (Add/Edit/Delete school announcements with toast notifications)"
+      ]
+    }
+  },
+  "image_urls": {
+    "hero_campus": "https://images.pexels.com/photos/8926848/pexels-photo-8926848.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "campus_building": "https://images.pexels.com/photos/35385546/pexels-photo-35385546.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "secondary_school_facade": "https://images.unsplash.com/photo-1786282820056-6a073a261a8e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzNzl8MHwxfHNlYXJjaHwyfHxtb2Rlcm4lMjBzY2hvb2wlMjBidWlsZGluZyUyMGNhbXB1cyUyMHN0dWRlbnRzJTIwbGVhcm5pbmd8ZW58MHx8fHwxNzg5NTU1NDA4fDA&ixlib=rb-4.1.0&q=85",
+    "classroom_learning": "https://images.pexels.com/photos/9159042/pexels-photo-9159042.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "library_study": "https://images.pexels.com/photos/9159037/pexels-photo-9159037.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "library_books": "https://images.unsplash.com/photo-1776571661811-c311d42634d9?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxOTB8MHwxfHNlYXJjaHw0fHxoaWdoJTIwc2Nob29sJTIwc3R1ZGVudHMlMjBsaWJyYXJ5JTIwY2xhc3Nyb29tJTIwbGVhcm5pbmd8ZW58MHx8fHwxNzg5NTU1NDE2fDA&ixlib=rb-4.1.0&q=85",
+    "science_lab": "https://images.pexels.com/photos/8923368/pexels-photo-8923368.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "teacher_microscope": "https://images.pexels.com/photos/8617833/pexels-photo-8617833.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "principal_portrait": "https://images.unsplash.com/photo-1758685734470-a75109299497?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY6Njd8MHwxfHNlYXJjaHwxfHxzY2hvb2wlMjBwcmluY2lwYWwlMjB0ZWFjaGVyJTIwY2xhc3Nyb29tJTIwbGFifGVufDB8fHx8MTc4OTU1NTQxNnww&ixlib=rb-4.1.0&q=85"
+  },
+  "testing_attributes": {
+    "mandatory_rule": "All interactive buttons, links, inputs, tabs, modal triggers, data table rows, filter chips, and status badges MUST contain explicit data-testid attributes in kebab-case.",
+    "examples": [
+      "data-testid='nav-home-link'",
+      "data-testid='nav-apply-now-button'",
+      "data-testid='admission-enquiry-form'",
+      "data-testid='student-name-input'",
+      "data-testid='parent-phone-input'",
+      "data-testid='grade-select'",
+      "data-testid='enquiry-submit-button'",
+      "data-testid='admin-dashboard-link'",
+      "data-testid='admin-enquiry-table-row-0'",
+      "data-testid='admin-status-filter-all'"
+    ]
+  },
+  "instructions_to_main_agent": [
+    "Ensure the navigation header is sticky with a dark/light semi-transparent backdrop blur (NEVER fully transparent without blur/background).",
+    "Use standard Lucide icons or Phosphor icons, NEVER use emoji characters for primary icons.",
+    "Ensure Toast notifications (using sonner) provide immediate feedback upon submitting admission enquiries, contact messages, and admin CRUD actions.",
+    "Admin dashboard should allow viewing, filtering, updating status of admissions enquiries, contact messages, and adding new news/events.",
+    "Use data-testid on all interactive elements as requested.",
+    "Make sure all forms connect seamlessly to the backend API endpoints (or mock store if required with realistic persistency)."
+  ]
+}

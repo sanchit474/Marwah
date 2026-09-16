@@ -1,0 +1,10 @@
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Ensure full-height layout with sticky footer */
+.App > * {
+  flex-shrink: 0;
+}
